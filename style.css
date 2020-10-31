@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.def-pad{
+    padding: 50px 0px;
+}
+.def-title{}
+.def-title span{}
+.def-title h1{}
+.mybtn{text-decoration: none;color: #fff;background: #1AB292;display: inline-block;padding: 14px 35px;font-size: 20px;border-radius: 30px;}
+.mybtn:hover{
+    color:white;
+}
+.btn-type-2{
+    text-decoration: none;
+    color: #1AB292;
+    border:1px solid #1AB292;
+    border-radius: 20px;
+    padding: 13px 50px;
+    font-size: 20px;
+    transition-duration: .4s;
+}
+.btn-type-2:hover{
+    color: #fff;
+    background-color: #1AB292;
+}
+/* ==========Banner-start========== */
+
+.banner-area-start {
+    background: url('images/main-banner.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-area-start::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #111111;
+    opacity: .7;
+    z-index: -1;
+}
+
+.banner-mid-area {
+    height: 70vh;
+}
+
+.banner-mid-img img {
+    vertical-align: middle;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.banner-mid-text {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.banner-mid-text h2 {
+    font-size: 3rem;
+}
+
+.banner-mid-text h4 {
+    font-size: 2rem;
+}
+.hire-me a{
+   text-decoration: none;
+}
+
+
+/* ==========menu-start========== */
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    margin-left: 5rem;
+    font-size: 2rem;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #fff;
+}
+
+ul.my-menu li {
+    padding: 10px 15px;
+}
+
+ul.my-menu li a {
+    text-decoration: none;
+    color: #fff;
+    transition: .4s;
+}
+
+ul.my-menu li a:hover {
+    color: #1AB292;
+}
+
+
+/* ==========about-start========== */
+.about-me-area-start{
+    background-color: #F8F9FA;
+}
+.about-me-img img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+.about-content-top h4{font-weight: 600;color: #1AB292;}
+.about-content-top h2{font-weight: 700;}
+.about-content-top p{font-size: 18px;}
+.self-info{margin-top: 25px;}
+.about-foot{padding: 25px 0px;}
+.social-icon{
+    position: relative;
+}
+.social-icon::before{
+    position: absolute;
+    content: '';
+    top: 40%;left: 20%;
+    height: 2px;
+    width: 50px;
+    color: #111111;
+    background-color: #111;
+}
+.social-icon ul{list-style: none;display: flex;padding-left: 9rem;}
+.social-icon ul li{padding: 10px 15px;}
+.social-icon ul li a{color: black;font-size:25px}
+
+/* ==========service-start========== */
+.services-area-start{
+   background-color: #D8D8D8;
+}
+.services-card {
+    color: #111;
+    box-shadow: 1px 1px 3px 3px #000;
+    padding: 45px 45px;
+    margin-bottom: 27px;
+    background-color: #FBFBFB;
+}
+.services-card i{}
+.services-card i{font-size: 50px;color: #1AB292;margin-bottom: 18px;}
+.services-card-content{}
+.services-card-content h3{font-weight: 900;font-size: 32px;}
+.services-card-content p{}
+/* ==========resume-start========== */
+.resume-area-start{background: #C1C1C1;}
+.resume-div{border-left: 10px solid #009E66;}
+.resume-card{padding: 15px 50px;background: #D8D8D8;border-bottom: 2px solid aliceblue;
+position: relative;}
+.resume-card::before{
+    position: absolute;
+    content:'';
+    left: -8px;
+    top: 25px;
+    height: 15px;
+    width: 45px;
+    background-color: #009E66ff;
+    border-radius: 25px;
+}
+.resume-card p{}
+/* ==========blog-start========== */
+.single-blog{background: #F0F0F0;margin-bottom: 25px;}
+.single-blog-img{position: relative;}
+.single-blog-text {
+    padding: 10px 0px;
+}
+.single-blog-text h3{font-weight: 600;}
+.single-blog-text p{font-size: 15px;}
+.img-date{color: #fff;background: #009E66;display: inline-block;padding: 5px 10px;position: absolute;z-index: 1;width: 116px;left: 0;bottom: 0;}
+/* ==========testimonials-start========== */
+.testimonial-start{background: #F0F0F0;}
+.single-Client{background: #f7f7f7;padding: 30px;border-radius: 2px;}
+.client-img img{border-radius: 50%;}
+.client-info h6{font-size: 18px;}
+.client-description p{font-weight: 600;}
+.client-review i{color: yellow;}
+.client-info {
+    margin-left: 20px;
+    margin-top: 8px;
+  }
+  .client-description {
+    margin-top: 14px;
+  }
+  /* ==========contact-start========== */
+  .same {
+    padding: 15px 10px;
+    margin-bottom: 25px;
+  }
+  .messege {
+    padding: 64px 10px;
+    margin-bottom: 25px;
+  }
+  
+  .single-icon {
+    font-size: 40px;
+    border-right: 2px solid black;
+    color: #1AB292;
+  }
